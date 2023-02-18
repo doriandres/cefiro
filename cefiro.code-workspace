@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "Project",
+			"path": "."
+		},
+		{
+			"name": "Client",
+			"path": "packages/client"
+		},
+		{
+			"name": "Library",
+			"path": "packages/library"
+		},
+		{
+			"name": "Server",
+			"path": "packages/server"
+		}
+	],
+	"settings": {}
+}

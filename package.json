@@ -1,0 +1,19 @@
+{
+  "name": "cefiro",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "scripts": {
+    "build:lib": "yarn workspace @cefiro/library build:watch",
+    "start:server": "yarn workspace @cefiro/server start:debug",
+    "start:client": "yarn workspace @cefiro/client start",
+    "start:silent": "concurrently \"yarn build:lib\" \"yarn start:client\" \"yarn start:server\"",
+    "start": "\"scripts\\start.bat\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
