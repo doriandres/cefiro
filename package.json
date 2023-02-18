@@ -7,10 +7,11 @@
     "packages/**/*"
   ],
   "scripts": {
-    "build:lib": "yarn workspace @cefiro/library build:watch",
+    "build:lib": "yarn workspace @cefiro/library build",
+    "build:lib:watch": "yarn workspace @cefiro/library build:watch",
     "start:server": "yarn workspace @cefiro/server start:debug",
     "start:client": "yarn workspace @cefiro/client start",
-    "start:silent": "concurrently \"yarn build:lib\" \"yarn start:client\" \"yarn start:server\"",
+    "start:quiet": "concurrently \"yarn build:lib\" \"yarn start:client\" \"yarn start:server\"",
     "start": "\"scripts\\start.bat\""
   },
   "devDependencies": {

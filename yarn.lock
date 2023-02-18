@@ -1595,6 +1595,7 @@ __metadata:
   resolution: "@cefiro/client@workspace:packages/client"
   dependencies:
     "@babel/core": ^7.12.9
+    "@cefiro/library": 1.0.0
     "@expo/vector-icons": ^13.0.0
     "@react-navigation/bottom-tabs": ^6.0.5
     "@react-navigation/native": ^6.0.2
